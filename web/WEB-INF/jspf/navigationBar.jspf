@@ -1,0 +1,32 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf" %>
+<%--<%@ include file="/WEB-INF/jspf/directive/taglib.jspf" %>--%>
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-white w3-border-bottom w3-xlarge">
+    <c:choose>
+        <c:when test="${requestScope.role == 3}">
+            <a href="controller?command=about_us" class="w3-bar-item w3-button w3-text-red w3-hover-red"><b><fmt:message key="navBar.about"/></b></a>
+            <a href="controller?command=personal_settings" class="w3-bar-item w3-button w3-text-red w3-hover-red"><b><fmt:message key="navBar.personalSettings"/></b></a>
+            <%--<form class="w3-bar-item w3-button w3-text-red w3-hover-red" action="controller" method="get">
+                <input type="hidden" name="command" value="personal_settings">
+                <input type="submit" value="<fmt:message key="navBar.personalSettings"/>">
+            </form>--%>
+
+            <%--<div>
+            <a href="controller?command=change_locale&language=ukrainian"><img src="../../style/img/Ukraine.png" width="24" height="24"></a>
+            <a href="controller?command=change_locale&language=russian"><img src="../../style/img/Russia.png" width="24" height="24"></a>
+            <a href="controller?command=change_locale&language=english"><img src="../../style/img/UK.png" width="24" height="24"></a>
+            </div>--%>
+
+
+            <a href="controller?command=logout" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><b><fmt:message key="navBar.logout"/></b></a>
+        </c:when>
+        <c:when test="${requestScope.role == 2}">
+            <a href="controller?command=logout" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><b><fmt:message key="navBar.logout"/></b></a>
+        </c:when>
+        <c:otherwise>
+            <a href="controller?command=statistics" class="w3-bar-item w3-button w3-text-red w3-hover-red"><b><fmt:message key="admin.statistics"/></b></a>
+            <a href="controller?command=logout" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><b><fmt:message key="navBar.logout"/></b></a>
+        </c:otherwise>
+    </c:choose>
+</div>

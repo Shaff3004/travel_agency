@@ -1,0 +1,266 @@
+.spoiler{
+    width: 100%;
+    padding: 5px;
+    display: block;
+    font-weight: 700;
+    color: #100213;
+    text-align: center;
+    margin-bottom: 3px;
+
+    font-family: Calibri, sans-serif;
+    border-bottom: 1px dotted #0f0f0f;
+    /*background-color: lightgray;*/
+}
+
+.spoiler > summary{
+    background-color: #e6e6e6;
+    padding: 10px 0;
+    border-radius: 10px;
+    border-bottom: 3px solid rgba(80, 80, 80, 0.23);
+}
+
+.right{
+    width: 45%;
+   /* padding: 5px;*/
+    float: right;
+    margin: 0;
+}
+.left{
+    width: 45%;
+    /*padding: 5px;*/
+    float: left;
+    margin: 0;
+}
+.button-right{
+    float: right;
+    cursor: pointer;
+}
+
+.left_d{
+    width: 49%;
+    float: left;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.right_d{
+    width: 49%;
+    float: right;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(26, 5, 0);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(26, 5, 0);
+    cursor: pointer;
+}
+
+select{
+    box-sizing: border-box;
+}
+
+.form-left-column, .form-right-column{
+    width: 45%;
+    max-width: 350px;
+    padding: 0 30px;
+}
+
+.form-left-column{
+    float: left;
+}
+
+.form-right-column{
+    float: right;
+}
+
+.w3-half{
+    /*width: 100%;*/
+}
+.w3-half2{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w3-half input, .w3-half select{
+    box-sizing: border-box;
+    width: 90%;
+}
+
+
+.invisible{
+    display:none;
+}
+
+.registered{
+    background-color: rgb(255, 204, 51);
+}
+
+.canceled{
+    background-color: rgb(255, 102, 51);
+}
+.paid{
+    background-color: rgb(204, 255, 51);
+}
+
+.moder{
+    background-color: #00ff00;
+}
+
+header {
+    max-width: 1500px;
+    background-size: cover;
+    padding: 50px 0;
+    height: 100%;
+    /*background: url("../../style/img/london2.jpg") repeat-y;*/
+
+}
+body{
+    background: url("../../style/img/london2.jpg") fixed;
+}
+
+.myForm {
+    margin: 0;
+}
+
+.myForm::after{
+    content: '';
+    display: block;
+    clear: both;
+    width:100%;
+}
+
+
+
+body {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+}
+
+.myLink {
+    display: none
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px
+}
+
+.myDiv {
+    margin: auto;
+    width: 65%;
+}
+
+td, th {
+    overflow: auto;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.default-option {
+    display: none;
+    color: gray;
+}
+.hot {
+    background-color: orange;
+}
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/*dialog{
+    width: 100%;
+}*/
+
+.box-sizing{
+    box-sizing: border-box;
+    width: 600px;
+}
+.myInput{
+    width: 49%;
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 5px; /* Rounded borders */
+    /*padding: 16px; !* Padding *!*/
+    position: relative; /* Sit on top of the screen */
+    max-width: 300px;
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    display: block;
+    /*bottom: 30px;*/ /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 9.5s;
+    animation: fadein 0.5s, fadeout 0.5s 9.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+.exit {
+    float: right;
+    cursor: pointer;
+}

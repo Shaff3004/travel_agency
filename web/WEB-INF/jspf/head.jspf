@@ -1,0 +1,17 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf" %>
+<%--<%@ include file="/WEB-INF/jspf/directive/taglib.jspf" %>--%>
+<%@ taglib prefix="action" tagdir="/WEB-INF/tags"%>
+
+
+<head>
+    <title>Best Tour</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../../style/css/w3.css">
+    <link rel="stylesheet" type="text/css" href="../../../style/css/main_page.css"/>
+    <script type="text/javascript" src="../../../style/js/jquery-latest.js"></script>
+    <script type="text/javascript" src="../../../style/js/jquery.tablesorter.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>

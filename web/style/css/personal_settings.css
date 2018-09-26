@@ -1,0 +1,259 @@
+fieldset {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 700px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px;
+
+}
+
+div {
+    background-color: white;
+}
+
+.securityDiv{
+    position: absolute!important;
+    left:20% !important;
+}
+.securityForm{
+    position: relative!important;
+    left: 25% !important;
+}
+.securityInp{
+    margin: 2px;
+}
+.secureSettings{
+
+    position: relative;
+    left: 15%;
+}
+.recharge{
+    position: absolute;
+    left: 5%;
+}
+
+
+
+.spoiler {
+    width: 100%;
+    padding: 5px;
+    display: block;
+    font-weight: 700;
+    color: #100213;
+    text-align: center;
+    margin-bottom: 3px;
+
+    font-family: Calibri, sans-serif;
+    border-bottom: 1px dotted #0f0f0f;
+    /*background-color: lightgray;*/
+}
+
+.spoiler > summary {
+    background-color: #e6e6e6;
+    padding: 10px 0;
+    border-radius: 10px;
+    border-bottom: 3px solid rgba(80, 80, 80, 0.23);
+}
+
+select {
+    box-sizing: border-box;
+}
+
+.pic {
+    background-color: transparent;
+}
+
+.profile {
+    margin: 5px;
+    border-radius: 20px;
+    width: 90%;
+
+}
+
+.w3-half {
+    /*width: 100%;*/
+}
+
+.w3-half2 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w3-half input, .w3-half select {
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.invisible {
+    display: none;
+}
+
+.registered {
+    background-color: rgb(255, 204, 51);
+}
+
+.canceled {
+    background-color: rgb(255, 102, 51);
+}
+
+.paid {
+    background-color: rgb(204, 255, 51);
+}
+
+.moder {
+    background-color: #00ff00;
+}
+
+header {
+    max-width: 1500px;
+    background-size: cover;
+    /*padding: 100px 0;*/
+    height: 100%;
+    padding: 20px 0!important;
+    background: url("../../style/img/london2.jpg") no-repeat;
+
+}
+
+.exit {
+    float: right;
+    cursor: pointer;
+}
+
+.avatar {
+    height: 106px;
+    width: 106px
+}
+
+.myForm {
+    margin: 0;
+}
+
+.myForm::after {
+    content: '';
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+body {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+}
+
+.myLink {
+    display: none
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.myDiv {
+    margin: auto;
+    width: 65%;
+    background-color: white;
+}
+
+td, th {
+    overflow: auto;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.box-sizing {
+    box-sizing: border-box;
+    width: 600px;
+}
+
+.myInput {
+    width: 49%;
+}
+
+#wrap{
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1, 1, 1, 0.725);
+    z-index: 100;
+    overflow: auto;
+}
+
+.window{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    display: none;
+    background: #fff;
+    z-index: 200;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+}
+
+.close{
+    margin-left: 364px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+dialog {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    background: url("../../style/img/credit_card.jpg") no-repeat;
+}
+dialog::backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.message{
+    max-width: 70%;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: center;
+    left:15%;
+}
+.textarea{
+    width: 400px;
+    height: 100px;
+}
+
+.uploadAvatarDialog{
+    background-color: white;
+}
+
+.dial{
+    width: 680px!important;
+    height: 450px;
+}
+
+.input {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-color: #fff;
+    color: #fff;
+    outline: none;
+}
