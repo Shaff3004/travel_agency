@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+
+    <description>Custom tags for work with tables</description>
+    <tlib-version>2.1</tlib-version>
+    <short-name>tableHeading</short-name>
+    <uri>/WEB-INF/tableHeading</uri>
+
+    <tag>
+        <description>Tag show table heading</description>
+        <name>tableHeading</name>
+        <tag-class>tags.TableHeading</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>String values</description>
+            <name>values</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <description>localization</description>
+            <name>lang</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+
+    </tag>
+</taglib>

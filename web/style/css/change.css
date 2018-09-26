@@ -1,0 +1,178 @@
+fieldset {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 700px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px;
+
+}
+div{
+    background-color: white;
+}
+
+.spoiler {
+    width: 100%;
+    padding: 5px;
+    display: block;
+    font-weight: 700;
+    color: #100213;
+    text-align: center;
+    margin-bottom: 3px;
+
+    font-family: Calibri, sans-serif;
+    border-bottom: 1px dotted #0f0f0f;
+    /*background-color: lightgray;*/
+}
+
+.spoiler > summary {
+    background-color: #e6e6e6;
+    padding: 10px 0;
+    border-radius: 10px;
+    border-bottom: 3px solid rgba(80, 80, 80, 0.23);
+}
+
+.right {
+    width: 45%;
+    /* padding: 5px;*/
+    float: right;
+    margin: 0;
+}
+
+.left {
+    width: 45%;
+    /*padding: 5px;*/
+    float: left;
+    margin: 0;
+}
+
+.button-right {
+    float: right;
+    cursor: pointer;
+}
+
+select {
+    box-sizing: border-box;
+}
+
+.form-left-column, .form-right-column {
+    width: 45%;
+    max-width: 350px;
+    padding: 30px 30px;
+}
+
+.form-left-column {
+    float: left;
+}
+
+.form-right-column {
+    float: right;
+}
+
+.w3-half {
+    /*width: 100%;*/
+}
+
+.w3-half2 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w3-half input, .w3-half select {
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.invisible {
+    display: none;
+}
+
+.registered {
+    background-color: rgb(255, 204, 51);
+}
+
+.canceled {
+    background-color: rgb(255, 102, 51);
+}
+
+.paid {
+    background-color: rgb(204, 255, 51);
+}
+
+.moder {
+    background-color: #00ff00;
+}
+
+header {
+    max-width: 1500px;
+    background-size: cover;
+    padding: 100px 0;
+    height: 100%;
+    background: url("../../style/img/london2.jpg") no-repeat;
+
+}
+
+.myForm {
+    margin: 0;
+}
+
+.myForm::after {
+    content: '';
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+body {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+}
+
+.myLink {
+    display: none
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.myDiv {
+    margin: auto;
+    width: 65%;
+    background-color: white;
+}
+
+td, th {
+    overflow: auto;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.default-option {
+    display: none;
+    color: gray;
+}
+
+
+
+
+
+
+
+.box-sizing {
+    box-sizing: border-box;
+    width: 600px;
+}
+
+.myInput {
+    width: 49%;
+}

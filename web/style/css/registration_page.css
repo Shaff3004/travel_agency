@@ -1,0 +1,62 @@
+body{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    background-size:cover;
+    background: url("/style/img/ocean2.jpg") no-repeat;
+    background-size: 100%;
+
+}
+
+form{
+    width: 65%;
+
+}
+
+.messageField {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 450px;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainField{
+    width:100%;
+    border-radius: 20px;
+    max-width:500px;
+    background-color:rgba(255,255,255,0.4);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.leftField{
+    border:none;
+    width:47%;
+    float:left;
+}
+.rad{
+    border-radius: 10px!important;
+}
+
+.centerField{
+    border:none;
+}
+
+.rightField{
+    border:none;
+    width:47%;
+    float:right;
+}
+input, button{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border-color: #fff;
+    color: #fff;
+    outline: none;
+}
+
+
+h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
